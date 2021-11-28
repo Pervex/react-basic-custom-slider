@@ -5,11 +5,11 @@ import Slides from "../atoms/Slides";
 import styled from "styled-components";
 
 const Container = styled.div`
-    width:1000px;
+    width:90%;
     background:#20232a;
     margin:0 auto;
     top:150px;
-    max-height:350,
+    height:450px;
     overflow:hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -45,7 +45,7 @@ export default function Slider() {
       <Button onClick={() => changeSlide(-1)} content="&#10094;" />
       <Slides data={data} />
       <Button
-        style={{ right: "600px" }}
+        style={{ right: "510px" }}
         onClick={() => changeSlide(1)}
         content="&#10095;"
       />

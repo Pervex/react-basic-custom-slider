@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Button = styled.button`
     position: absolute;
-    top: 370px;
+    top: 425px;
     background: none;
     color: white;
     display: list-item;
