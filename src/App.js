@@ -1,13 +1,11 @@
 import Home from './pages/Home';
 import Description from './pages/Description';
+import CarouselLibrary from './pages/CarouselLibrary';
 
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Routes,
-  // Router,
-  Link
 } from "react-router-dom";
 function App() {
   return (
@@ -15,6 +13,7 @@ function App() {
     <Router>
     <Routes>
       <Route path="" element={<Home />} />
+      <Route path="/library" element={<CarouselLibrary />} />
       <Route path="/:id" element={<Description />} />
     </Routes>
   </Router>,

@@ -5,15 +5,14 @@ import Slides from "../atoms/Slides";
 import styled from "styled-components";
 
 const Container = styled.div`
-    width:90%;
-    background:#20232a;
-    margin:0 auto;
-    top:150px;
-    height:450px;
-    overflow:hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
+  width: 90%;
+  background: #20232a;
+  margin: 0 auto;
+  top: 150px;
+  height: 450px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 `;
 export default function Slider() {
   const [startSlide, setStartSlide] = useState(1);
